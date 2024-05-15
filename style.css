@@ -13,5 +13,27 @@ a{
 
 a:hover{
     color: #ca3c3f;
-    
+
+}
+
+.header{
+    width: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.menu{
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-links{
+    list-style: none;
+    padding: 0;
+}
+
+.menu-links li{
+    display: inline-block;
+    padding: 0px 20px;
 }
