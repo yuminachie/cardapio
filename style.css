@@ -4,6 +4,7 @@ body{
     color: #222222;
     margin: 0;
     font-family: "Barlow";
+    width: 100%;
 }
 
 a{
@@ -13,13 +14,13 @@ a{
 
 a:hover{
     color: #ca3c3f;
-
 }
 
 .header{
     width: auto;
     text-align: center;
     padding: 0;
+    margin-top: 20px;
 }
 
 .menu{
@@ -37,30 +38,36 @@ a:hover{
     display: inline-block;
     padding: 0px 20px;
 }
+
 .banner{
     width: 100%;
     text-align: center;
 }
+
 .coluna{
     width: 45%;
     display: inline-block;
     vertical-align: middle;
 }
+
 .banner p{
     font-size: 40px;
     text-align: left;
     padding-left: 100px;
     padding-right: 100px;
 }
+
 .botao{
     border: 1px solid #333333;
     border-radius: 14px;
     padding: 20px;
     font-size: 20px;
 }
+
 .banner img{
     width: 90%;
 }
+
 .cardapio{
     box-sizing: border-box;
     border-top: 1px dashed #999999;
@@ -71,30 +78,36 @@ a:hover{
     margin-top: 100px;
     padding: 50px 15px 10px 15px;
 }
+
 .cardapio-categoria{
     text-align: left;
     color: #ca3c3f;
     font-size: 22px;
     margin-top: 50px;
 }
+
 .cardapio-item{
     padding-top: 20px;
-    text-align: left; 
-    width: 100%;   
+    text-align: left;
+    width: 100%;
 }
+
 .cardapio-nome{
     display: inline-block;
     font-size: 18px;
     font-weight: bold;
 }
-.cardapio-preco{        
-    font-size: 18px;    
+
+.cardapio-preco{
+    font-size: 18px;
     float: right;
 }
+
 .cardapio-descricao{
     font-size: 12px;
     color: #999999;
 }
+
 footer{
     margin-top: 100px;
     width: 100%;
@@ -104,7 +117,26 @@ footer{
     color: #ffffff;
     background-color: #333333;
 }
+
 footer p{
     margin: 3px;
-    
+}
+.link-whatsapp img{
+    height: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+@media(max-width:900px){
+    .coluna{
+        width: 100%;
+        vertical-align: middle;
+        margin-bottom: 30px;
+    }
+}
+.banner p{
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
 }
